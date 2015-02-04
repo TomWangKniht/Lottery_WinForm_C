@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="e63c02ae-b8f2-479b-bb12-b46cdf539fba" name="LotterySAUseCaseDiagram" linkedPackageId="4e2ef69e-8073-40d8-b4ae-854642ed1f9e" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="49b9083d-84be-41ed-82d3-25bc1f5899b8" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="7f4f35af-9678-4edc-be43-fc4cd10cdc8a" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="efed0208-b50d-446a-92ca-aa81e09f3924">
+          <propertyInstance Id="4bd22ea1-72c9-4b14-9203-05362cd5d517" name="BaseName">
+            <elementDefinition Id="182e33aa-7fa0-4eeb-8490-c810cbd2cfc0" />
+          </propertyInstance>
+          <elementDefinition Id="874154d2-ec4c-4c37-908d-3356be0b98b3" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7a94164b-790f-40ef-8169-46260ed262ee">
+          <propertyInstance Id="ee63d52b-da04-466f-b3ce-f7a9dd6ef951" name="ClrAttributes">
+            <elementDefinition Id="1caf9daf-d018-4958-9bf4-f862f69ab5d4" />
+          </propertyInstance>
+          <elementDefinition Id="3f4713a3-09f3-4f19-aaf8-cf74d0e9c04f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d0c7b9ba-82ca-42c4-87a9-7afeeb0e5dae">
+          <propertyInstance Id="f827b0df-9210-4613-b767-d104383d81aa" name="Usings">
+            <elementDefinition Id="29ae1efa-c6f1-4780-890b-4fc601108310" />
+          </propertyInstance>
+          <elementDefinition Id="80b9463a-6b36-46ca-b308-bd0cd472d18b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="fa2c22d0-0fcc-4a5a-aef0-f39706185bdd" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="73ceab49-a68d-49a5-881d-81a31296b96a" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3005a2bb-66f7-41c5-81d9-319e0e736b58">
+          <propertyInstance Id="06f5509b-aec5-4eb7-b0e3-13023e23ddf2" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="783ccd8e-35cf-4e63-aae0-fc771e8270e3" />
+          </propertyInstance>
+          <elementDefinition Id="f25bef69-673a-4315-a052-3539c262e633" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3c6978d0-94e5-44d0-a7b9-3d8d59339eee">
+          <propertyInstance Id="9b9900a5-4c9a-42e4-9457-379a6e536bb2" name="TemplateFilePath" value="ClassTemplate=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="f9100aeb-8e8b-4100-be15-5a5fa97b5003" />
+          </propertyInstance>
+          <elementDefinition Id="17da9614-d411-46f2-8b08-3cfcfa83abc1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4a286103-4ebd-4fd9-bf8d-456d2140f73a">
+          <propertyInstance Id="bd7d973c-74af-4153-8a89-070da0ea9f22" name="ProjectPath" value="ClassTemplate=..\LotteryUMLProjectLib\LotteryUMLProjectLib.csproj|EnumTemplate=..\LotteryUMLProjectLib\LotteryUMLProjectLib.csproj|InterfaceTemplate=..\LotteryUMLProjectLib\LotteryUMLProjectLib.csproj|StructTemplate=..\LotteryUMLProjectLib\LotteryUMLProjectLib.csproj">
+            <elementDefinition Id="274010ea-28ca-437b-9731-e21df0d00095" />
+          </propertyInstance>
+          <elementDefinition Id="b75061f1-330c-4f89-9971-329c2c59b35a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="29eef491-5f2f-46b7-9c60-a4ab3858cd45">
+          <propertyInstance Id="95fd5c0c-3ebc-42e2-9aab-8d9d134f9b58" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="4cb558e8-5068-4f83-b28c-7c0bffcb47e2" />
+          </propertyInstance>
+          <elementDefinition Id="cae61da6-9f15-4927-81ea-3eb3e7d60488" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="51096402-f8ad-4012-a2b2-b175b75072ff">
+          <propertyInstance Id="f7b1797b-d64e-4c11-bb57-286b567a5e91" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="0b5ab4f9-5c6a-41c7-8e0e-e9d5bf49366b" />
+          </propertyInstance>
+          <elementDefinition Id="4c0eda64-0226-47fe-9d3f-fadba3ac3d60" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="093478af-8003-4f63-b252-d4fec2199e72">
+          <propertyInstance Id="28171386-0da5-49cc-a9b6-e43c9aa2dcd6" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="a7320405-5a67-4eb3-a327-7a994bbb162b" />
+          </propertyInstance>
+          <elementDefinition Id="cb11db57-62c5-48e4-8f2f-dac078918147" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cf306226-0bcf-4f7c-8816-ad60576cfe68">
+          <propertyInstance Id="ea5cb6a0-b236-408d-b4d9-c9224f85c49d" name="Parameters">
+            <elementDefinition Id="c24dfbbb-aa97-4883-ae70-5405e9f057fd" />
+          </propertyInstance>
+          <elementDefinition Id="8db1fb40-be30-4acf-866b-9c9da78c1270" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="684ac6cd-3261-4024-97b9-c0ec29f5382a">
+      <profileInstance Id="e03a4008-0c8d-4639-8010-f327041d0264" name="CSharpProfile">
+        <elementDefinition Id="3b3a4676-59de-424c-a554-a245d9f41fe6" />
+      </profileInstance>
+      <elementDefinition Id="0b1282b6-b3f0-44c6-b9fd-65e986eae5a3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8424eb50-098b-40af-a6a5-65b77d6b14c8">
+      <profileInstance Id="e12fddb1-2d7e-4ee2-ad12-838444cf625b" name="TextTemplateBindings">
+        <elementDefinition Id="e5ea9e81-39f6-43c6-8515-2f57d580d333" />
+      </profileInstance>
+      <elementDefinition Id="1a9a3ed0-a269-4251-81f2-0086d800078a" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="fcdca0aa-6101-4939-b5af-ed6968897bee" name="樂透號碼產生器" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="49467a3c-4368-4d3c-94c4-d0273e5d09aa" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="4f242137-5a36-41b2-890d-ef337529ddcb" name="使用者" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d6d4ab44-3ad0-48fa-bbe1-ada000e51295" />
+        <targetEnds>
+          <association Id="8368a869-c72f-4cd5-832a-d3e7e4aff39e" isDerived="false" sourceEndRoleName="使用者" targetEndRoleName="產生樂透號碼" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c4cb89ae-7633-4e19-8cc8-4a65b03ebb99" LastKnownName="產生樂透號碼" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5bcbab0c-6fb9-4830-824c-507697285c41" name="使用者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e9fe468a-1e9c-4174-8e86-1f421cbe6d02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5315ce7-e26f-488c-9dce-b353ab551c26" name="產生樂透號碼" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="36f97cac-dfab-44a2-a082-2d383189b7d7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f7b76033-e021-4465-b388-2418edb774c7" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="c4cb89ae-7633-4e19-8cc8-4a65b03ebb99" name="產生樂透號碼" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2420e3db-21a8-492b-b2ac-d8d469f48a44" />
+        <subjects>
+          <subsystemMoniker Id="fcdca0aa-6101-4939-b5af-ed6968897bee" LastKnownName="樂透號碼產生器" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="4e2ef69e-8073-40d8-b4ae-854642ed1f9e" name="LotteryUMLProject">
+    <elementDefinition Id="96e34617-a4ce-48ba-88a2-27eac66d0615" />
+    <profileInstances>
+      <packageHasProfileInstances Id="fbdffeb9-bc80-4b16-b215-fbdfe081b15b">
+        <profileInstance Id="83419065-33ea-44b2-a2f0-cba352f13a4b" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="b6ce1faa-bd1a-454e-bda8-687732fd79f8">
+        <profileInstance Id="33fbce6f-9533-4d17-8e3d-d3d3842773c4" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LotterySAUseCaseDiagram">
+  <useCaseModelRootMoniker Id="e63c02ae-b8f2-479b-bb12-b46cdf539fba" />
+  <nestedChildShapes>
+    <actorShape Id="638b1b3c-128a-41d6-9cd1-5a5c279fe908" absoluteBounds="3.25, 2.25, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="4f242137-5a36-41b2-890d-ef337529ddcb" LastKnownName="使用者" />
+      <relativeChildShapes />
+    </actorShape>
+    <SubsystemShape Id="ef25603c-7bc4-40f4-98db-89fe232673c6" absoluteBounds="4.375, 1.5, 3, 2.5" customColor="White">
+      <subsystemMoniker Id="fcdca0aa-6101-4939-b5af-ed6968897bee" LastKnownName="樂透號碼產生器" />
+      <nestedChildShapes>
+        <useCaseShape Id="42fb56ca-23ee-4204-be4b-90aaf4861f2f" absoluteBounds="5, 2.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="c4cb89ae-7633-4e19-8cc8-4a65b03ebb99" LastKnownName="產生樂透號碼" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+    <useCaseAssociationConnector edgePoints="[(3.75 : 2.515625); (5.00386106164317 : 2.5939913163527)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="8368a869-c72f-4cd5-832a-d3e7e4aff39e" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="638b1b3c-128a-41d6-9cd1-5a5c279fe908" />
+        <useCaseShapeMoniker Id="42fb56ca-23ee-4204-be4b-90aaf4861f2f" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

@@ -1,0 +1,5 @@
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\LotteryUMLProjectLib\bin\Debug\LotteryUMLProjectLib.dll
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\LotteryUMLProjectLib\bin\Debug\LotteryUMLProjectLib.pdb
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\LotteryUMLProjectLib\obj\Debug\ResolveAssemblyReference.cache
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\LotteryUMLProjectLib\obj\Debug\LotteryUMLProjectLib.dll
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\LotteryUMLProjectLib\obj\Debug\LotteryUMLProjectLib.pdb

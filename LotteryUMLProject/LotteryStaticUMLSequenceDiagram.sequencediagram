@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="b2f5cd50-cea7-4c21-86fe-9887a983d041" name="LotteryStaticUMLSequenceDiagram" linkedPackageId="9d576199-4f64-4187-a6bb-44e6565ddcd3" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="b8d883dc-6cbe-46eb-bf87-e5e8483894e9">
+      <profileInstance Id="ef8c170b-9731-40ab-b556-03f8d2e832da" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a8b27371-2101-41c6-a19f-5b0859ac7ca1">
+      <profileInstance Id="ac9d3879-eb6b-4d96-b133-34d50489adb1" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="8f2e1027-1818-4780-8db9-9d05f3003d2e" name="LotteryStaticUMLSequenceDiagram" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="dca14b69-a5ab-4743-91db-02c3de0a15d4" />
+        <fragments>
+          <messageOccurrenceSpecification Id="86c34160-0fb7-434c-a271-8cf89f08eec5" name="MessageOccurrenceSpecification1">
+            <elementDefinition Id="7249403a-35d5-40c0-818f-b08e0d8c41bd" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="1a8e349a-180b-47dd-8d6c-1ad858479204" name="BehaviorExecutionSpecification1">
+            <elementDefinition Id="97d9356e-a8eb-4028-af58-3284492b9a7f" />
+            <coveredLifelines>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="754ff94a-e1c6-469a-b4f8-c569604abec7" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="0ec51120-3827-417d-9105-af65fa347031" LastKnownName="ExecutionOccurrenceSpecification1" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="6ac27646-5601-4be2-8165-d1119cf4cf28" LastKnownName="MessageOccurrenceSpecification2" />
+              <messageOccurrenceSpecificationMoniker Id="844dbd03-7e34-4cbd-89d1-97825f6d1695" LastKnownName="MessageOccurrenceSpecification3" />
+              <executionOccurrenceSpecificationMoniker Id="03c0ce3f-0234-4561-ab86-871a825d53c9" LastKnownName="ExecutionOccurrenceSpecification3" />
+              <executionOccurrenceSpecificationMoniker Id="1510baa1-9d27-4f5a-9077-845d230a4e2e" LastKnownName="ExecutionOccurrenceSpecification4" />
+              <operandOccurrenceSpecificationMoniker Id="e12009d5-ab45-4fa8-ac37-8db0ab1adf16" LastKnownName="OperandOccurrenceSpecification3" />
+              <messageOccurrenceSpecificationMoniker Id="1f237ad9-20d6-4398-842e-113d50d72b87" LastKnownName="MessageOccurrenceSpecification5" />
+              <messageOccurrenceSpecificationMoniker Id="5ad3b51c-9530-46b9-921c-89e81475b5b4" LastKnownName="MessageOccurrenceSpecification8" />
+              <operandOccurrenceSpecificationMoniker Id="559ca321-eb99-46d1-867f-716306dd707d" LastKnownName="OperandOccurrenceSpecification4" />
+              <operandOccurrenceSpecificationMoniker Id="88c1ded7-309a-4096-be59-61901fde9d70" LastKnownName="OperandOccurrenceSpecification7" />
+              <messageOccurrenceSpecificationMoniker Id="43e53cfa-2f7b-4431-ba0f-1e1ba471b3e3" LastKnownName="MessageOccurrenceSpecification9" />
+              <messageOccurrenceSpecificationMoniker Id="b5852161-611b-465b-98c6-d547841bfa03" LastKnownName="MessageOccurrenceSpecification12" />
+              <operandOccurrenceSpecificationMoniker Id="f9f50d77-8bba-4c80-a5f9-d7484b418b18" LastKnownName="OperandOccurrenceSpecification8" />
+              <messageOccurrenceSpecificationMoniker Id="c9ad3dcd-2421-45e6-aeb4-49218b536b3c" LastKnownName="MessageOccurrenceSpecification13" />
+              <executionOccurrenceSpecificationMoniker Id="24ce38a5-0288-43bf-bd36-450cd167da04" LastKnownName="ExecutionOccurrenceSpecification9" />
+              <executionOccurrenceSpecificationMoniker Id="ad3256a6-8dba-4a22-bd7b-3cc5185cbedc" LastKnownName="ExecutionOccurrenceSpecification10" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="0ec51120-3827-417d-9105-af65fa347031" name="ExecutionOccurrenceSpecification1">
+            <elementDefinition Id="9f8f9233-801b-4b1c-b064-f8af2683f156" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="7834a916-0a8d-48b1-b09b-cc2ea429a18c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6ac27646-5601-4be2-8165-d1119cf4cf28" name="MessageOccurrenceSpecification2">
+            <elementDefinition Id="6d7907bc-b291-4168-b036-67c5f4463bc4" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="844dbd03-7e34-4cbd-89d1-97825f6d1695" name="MessageOccurrenceSpecification3">
+            <elementDefinition Id="7bb2889b-d071-4a39-8c3a-b6553ee7c586" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="5e2f69cc-029d-4f79-90af-c0c617f60d61" name="BehaviorExecutionSpecification2">
+            <elementDefinition Id="1e395763-b2c7-4b19-897a-0edd12e471a3" />
+            <coveredLifelines>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="1510baa1-9d27-4f5a-9077-845d230a4e2e" LastKnownName="ExecutionOccurrenceSpecification4" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="03c0ce3f-0234-4561-ab86-871a825d53c9" LastKnownName="ExecutionOccurrenceSpecification3" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="41600df6-d808-4579-bb56-ca5a581ef1a7" LastKnownName="MessageOccurrenceSpecification4" />
+              <interactionUseOccurrenceSpecificationMoniker Id="780172fe-1827-4da0-bc66-77b3fd0ef444" LastKnownName="InteractionUseOccurrenceSpecification1" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="03c0ce3f-0234-4561-ab86-871a825d53c9" name="ExecutionOccurrenceSpecification3">
+            <elementDefinition Id="9a901c6a-7fc6-491e-bb0a-bf57bcf0dba3" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="84b37a3d-716f-445f-bd48-457148232613" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="41600df6-d808-4579-bb56-ca5a581ef1a7" name="MessageOccurrenceSpecification4">
+            <elementDefinition Id="95b4e335-526c-4aee-8ac2-c3f65ac8c455" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <interactionUse Id="7b31804f-9ea5-4132-b15e-ea4fb8a2a822" name="輸入資料檢核">
+            <elementDefinition Id="98103934-efb9-4bda-97b1-5708917ae843" />
+            <coveredLifelines>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+              <lifelineMoniker Id="82a0e2a6-3694-440e-95f1-ecfbd7b01e71" LastKnownName="staticValidator : StaticValidator" />
+            </coveredLifelines>
+            <interactionUseOccurrenceSpecifications>
+              <interactionUseOccurrenceSpecificationMoniker Id="780172fe-1827-4da0-bc66-77b3fd0ef444" LastKnownName="InteractionUseOccurrenceSpecification1" />
+              <interactionUseOccurrenceSpecificationMoniker Id="10dbbf9a-94d6-4279-8621-66a97b4f13ca" LastKnownName="InteractionUseOccurrenceSpecification2" />
+            </interactionUseOccurrenceSpecifications>
+          </interactionUse>
+          <interactionUseOccurrenceSpecification Id="780172fe-1827-4da0-bc66-77b3fd0ef444" name="InteractionUseOccurrenceSpecification1">
+            <elementDefinition Id="688908c1-c26e-457a-8373-9793cb95921d" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </interactionUseOccurrenceSpecification>
+          <interactionUseOccurrenceSpecification Id="10dbbf9a-94d6-4279-8621-66a97b4f13ca" name="InteractionUseOccurrenceSpecification2">
+            <elementDefinition Id="99ca6e66-901d-4550-8c3f-56b57d971d4e" />
+            <covered>
+              <lifelineMoniker Id="82a0e2a6-3694-440e-95f1-ecfbd7b01e71" LastKnownName="staticValidator : StaticValidator" />
+            </covered>
+          </interactionUseOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="1510baa1-9d27-4f5a-9077-845d230a4e2e" name="ExecutionOccurrenceSpecification4">
+            <elementDefinition Id="c1584cdd-1d09-4c12-942d-d6f7f1afab2f" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="bcd3b537-5aaf-4826-b7ef-3b3bed2ff526" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <combinedFragment Id="287bac61-3d7c-4320-b7ac-394912cf23a0" name="CombinedFragment1" interactionOperator="Alt">
+            <elementDefinition Id="eed33779-cda7-4bc3-b2ea-10ea25f2e266" />
+            <coveredLifelines>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="73fb91d0-b1f0-4f74-bd19-f13ff975c314" name="InteractionOperand1">
+                <elementDefinition Id="c74d501f-dda6-4e29-a574-dd1c02f2b999" />
+                <coveredLifelines>
+                  <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+                  <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="3d9b515b-31cb-4142-be0a-7ac52792d05f" guardText="來源類型選個數">
+                    <elementDefinition Id="3348f0c0-762d-4d30-bd78-749a7dedf5d3" />
+                  </interactionConstraint>
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="e06c2b44-6309-4ed4-bf74-de0af124065d" LastKnownName="OperandOccurrenceSpecification1" />
+                  <operandOccurrenceSpecificationMoniker Id="9e0b5628-84f9-4158-8d95-002754f89322" LastKnownName="OperandOccurrenceSpecification2" />
+                  <operandOccurrenceSpecificationMoniker Id="e12009d5-ab45-4fa8-ac37-8db0ab1adf16" LastKnownName="OperandOccurrenceSpecification3" />
+                  <operandOccurrenceSpecificationMoniker Id="559ca321-eb99-46d1-867f-716306dd707d" LastKnownName="OperandOccurrenceSpecification4" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="85d35121-120f-4778-8a8f-c8103e6e2733" name="InteractionOperand2">
+                <elementDefinition Id="61f30778-a74d-4d11-9815-514c0811ac05" />
+                <coveredLifelines>
+                  <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+                  <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="18cd8231-3a0e-4880-9abb-df20a949a430" guardText="來源類型選號碼">
+                    <elementDefinition Id="7bce9e77-a1c1-4afe-a974-1f409182932c" />
+                  </interactionConstraint>
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="cd7a1184-012d-416c-b75e-3d6ef9a27cdc" LastKnownName="OperandOccurrenceSpecification5" />
+                  <operandOccurrenceSpecificationMoniker Id="cd1d33fa-121a-413d-b8ca-95fe385f063b" LastKnownName="OperandOccurrenceSpecification6" />
+                  <operandOccurrenceSpecificationMoniker Id="88c1ded7-309a-4096-be59-61901fde9d70" LastKnownName="OperandOccurrenceSpecification7" />
+                  <operandOccurrenceSpecificationMoniker Id="f9f50d77-8bba-4c80-a5f9-d7484b418b18" LastKnownName="OperandOccurrenceSpecification8" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="e12009d5-ab45-4fa8-ac37-8db0ab1adf16" name="OperandOccurrenceSpecification3">
+            <elementDefinition Id="933d2d05-7731-404c-8a42-4df111cb2bee" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="e06c2b44-6309-4ed4-bf74-de0af124065d" name="OperandOccurrenceSpecification1">
+            <elementDefinition Id="84215b87-22fb-4ccd-a216-98f916c938a9" />
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="c2892c91-050c-4ce4-b6fe-6fd514900b98" name="BehaviorExecutionSpecification3">
+            <elementDefinition Id="7ca6483a-8cb1-4ae1-9c27-e9acfd8dac40" />
+            <coveredLifelines>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="67cbc573-879b-488d-aa14-6de3fbec917f" LastKnownName="ExecutionOccurrenceSpecification6" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="4fcaf165-45be-4637-bcbb-b264355c81e0" LastKnownName="ExecutionOccurrenceSpecification5" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e0fae2e0-4b45-4453-82b2-611496038229" LastKnownName="MessageOccurrenceSpecification6" />
+              <messageOccurrenceSpecificationMoniker Id="96f5c7e8-873c-4518-8a45-90a3a07544ab" LastKnownName="MessageOccurrenceSpecification7" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="4fcaf165-45be-4637-bcbb-b264355c81e0" name="ExecutionOccurrenceSpecification5">
+            <elementDefinition Id="329372da-5b31-4cf9-90cf-e7bd02d3a884" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="13ad897a-62c4-41a4-97b4-e8c51536a174" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e0fae2e0-4b45-4453-82b2-611496038229" name="MessageOccurrenceSpecification6">
+            <elementDefinition Id="52aa10a6-fc5e-49c7-90d2-abbed8a306de" />
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1f237ad9-20d6-4398-842e-113d50d72b87" name="MessageOccurrenceSpecification5">
+            <elementDefinition Id="0217b3bd-7c11-488d-afb3-a7d9b5a02378" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5ad3b51c-9530-46b9-921c-89e81475b5b4" name="MessageOccurrenceSpecification8">
+            <elementDefinition Id="d5dc4949-673a-405b-9bb6-c4eebc9ea093" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="96f5c7e8-873c-4518-8a45-90a3a07544ab" name="MessageOccurrenceSpecification7">
+            <elementDefinition Id="2f46e8a5-5230-41b3-82ac-13593e7f6b4c" />
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="67cbc573-879b-488d-aa14-6de3fbec917f" name="ExecutionOccurrenceSpecification6">
+            <elementDefinition Id="ba7d3c17-4027-4724-947b-9a87bd01c729" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="870b912c-0a7c-4542-b2ff-30018e5eef31" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="9e0b5628-84f9-4158-8d95-002754f89322" name="OperandOccurrenceSpecification2">
+            <elementDefinition Id="604a84e1-2df4-41e7-886f-716646be37b5" />
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="559ca321-eb99-46d1-867f-716306dd707d" name="OperandOccurrenceSpecification4">
+            <elementDefinition Id="693dbb45-ffc9-4b25-9c06-39afc1687d29" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="cd7a1184-012d-416c-b75e-3d6ef9a27cdc" name="OperandOccurrenceSpecification5">
+            <elementDefinition Id="25ffec9c-2b34-436d-a240-66b1450cef69" />
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="88c1ded7-309a-4096-be59-61901fde9d70" name="OperandOccurrenceSpecification7">
+            <elementDefinition Id="cc48660e-d38f-4a89-97d4-15faff896bdd" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="851b2d7a-b245-4424-8078-cf8b4baa91da" name="BehaviorExecutionSpecification4">
+            <elementDefinition Id="59d583ed-a5de-4c0c-819b-9ba818a1edf2" />
+            <coveredLifelines>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="f4701b25-0fa4-4d23-9153-7a401cac86e2" LastKnownName="ExecutionOccurrenceSpecification8" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="5251785e-2271-40ff-b424-d79a53edae66" LastKnownName="ExecutionOccurrenceSpecification7" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="22d75fca-403e-40e7-8385-62ab2fc6451e" LastKnownName="MessageOccurrenceSpecification10" />
+              <messageOccurrenceSpecificationMoniker Id="d9057764-166b-40b3-abdf-aa9ece4e71fc" LastKnownName="MessageOccurrenceSpecification11" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="5251785e-2271-40ff-b424-d79a53edae66" name="ExecutionOccurrenceSpecification7">
+            <elementDefinition Id="2f9aec14-3d29-4328-af4d-9a10238abc14" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="8f6a56e6-057b-49cc-b1c6-762befe6ce65" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="43e53cfa-2f7b-4431-ba0f-1e1ba471b3e3" name="MessageOccurrenceSpecification9">
+            <elementDefinition Id="1d3a9e1a-f0ff-4ec5-a4ef-e71470622aaf" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="22d75fca-403e-40e7-8385-62ab2fc6451e" name="MessageOccurrenceSpecification10">
+            <elementDefinition Id="0a05cd88-6d64-4274-a9d3-c4edee746bcf" />
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d9057764-166b-40b3-abdf-aa9ece4e71fc" name="MessageOccurrenceSpecification11">
+            <elementDefinition Id="7dd73686-02d5-4a27-ae94-01a918ce0858" />
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b5852161-611b-465b-98c6-d547841bfa03" name="MessageOccurrenceSpecification12">
+            <elementDefinition Id="d22503c6-61a7-414f-b224-4e8b54ada005" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="f4701b25-0fa4-4d23-9153-7a401cac86e2" name="ExecutionOccurrenceSpecification8">
+            <elementDefinition Id="1d99a40f-e858-49a2-83fa-003f6cb4cf55" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="c757c58e-6aa5-40b6-860b-02f19ba4913c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="cd1d33fa-121a-413d-b8ca-95fe385f063b" name="OperandOccurrenceSpecification6">
+            <elementDefinition Id="5ab411db-cec7-408b-8ee5-9e7be409a4c4" />
+            <covered>
+              <lifelineMoniker Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" LastKnownName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="f9f50d77-8bba-4c80-a5f9-d7484b418b18" name="OperandOccurrenceSpecification8">
+            <elementDefinition Id="a283d05f-a0b5-4795-b5f6-1528f3e179e3" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c9ad3dcd-2421-45e6-aeb4-49218b536b3c" name="MessageOccurrenceSpecification13">
+            <elementDefinition Id="6ac8bc18-a85d-449e-8116-fe73e1dffa1a" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="855120e3-caff-4bdb-9c88-6f6c0740624f" name="BehaviorExecutionSpecification5">
+            <elementDefinition Id="d899053f-03d7-4b3d-8910-0d0155bc4d71" />
+            <coveredLifelines>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="ad3256a6-8dba-4a22-bd7b-3cc5185cbedc" LastKnownName="ExecutionOccurrenceSpecification10" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="24ce38a5-0288-43bf-bd36-450cd167da04" LastKnownName="ExecutionOccurrenceSpecification9" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="046d73cb-9201-468e-9e3e-d6059d4c7298" LastKnownName="MessageOccurrenceSpecification14" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="24ce38a5-0288-43bf-bd36-450cd167da04" name="ExecutionOccurrenceSpecification9">
+            <elementDefinition Id="e4ccdb25-8fe5-4d42-89ba-4b1efe181c87" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a9609d46-bd95-4654-88fe-df980eca42d6" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="046d73cb-9201-468e-9e3e-d6059d4c7298" name="MessageOccurrenceSpecification14">
+            <elementDefinition Id="4b96710b-3059-48e2-bdaf-af0e2ade35f9" />
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="ad3256a6-8dba-4a22-bd7b-3cc5185cbedc" name="ExecutionOccurrenceSpecification10">
+            <elementDefinition Id="d1b2a7e9-d97f-43a8-a50f-e4dba78b8117" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e198da7f-7ac7-4521-91ad-4de95c325005" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="754ff94a-e1c6-469a-b4f8-c569604abec7" name="ExecutionOccurrenceSpecification2">
+            <elementDefinition Id="8d5170c6-418d-4a99-85a7-e14b651db8fc" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="c239bef0-2f2b-4741-9edc-ea8741c16081" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="be7038ca-6749-4193-8d71-41a913a4d4b2" LastKnownName="lotteryFrom_Static : LotteryFrom_Static" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="be7038ca-6749-4193-8d71-41a913a4d4b2" name="lotteryFrom_Static : LotteryFrom_Static" isActor="false" lifelineDisplayName="lotteryFrom_Static : LotteryFrom_Static">
+            <elementDefinition Id="d0c625a2-057f-4e8d-9b54-8efb52a4a528" />
+            <represents>
+              <propertyMoniker Id="fbbb349b-c169-43f4-89fc-141f5118ef44" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="86c34160-0fb7-434c-a271-8cf89f08eec5" LastKnownName="MessageOccurrenceSpecification1" />
+              <executionOccurrenceSpecificationMoniker Id="0ec51120-3827-417d-9105-af65fa347031" LastKnownName="ExecutionOccurrenceSpecification1" />
+              <executionOccurrenceSpecificationMoniker Id="754ff94a-e1c6-469a-b4f8-c569604abec7" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="82a0e2a6-3694-440e-95f1-ecfbd7b01e71" name="staticValidator : StaticValidator" isActor="false" lifelineDisplayName="staticValidator : StaticValidator">
+            <elementDefinition Id="beed40d4-b5f4-42e3-a2c1-f527a50918b0" />
+            <represents>
+              <propertyMoniker Id="aa889148-c1cd-4f31-a33a-ac6508056177" />
+            </represents>
+            <topLevelOccurrences>
+              <interactionUseOccurrenceSpecificationMoniker Id="10dbbf9a-94d6-4279-8621-66a97b4f13ca" LastKnownName="InteractionUseOccurrenceSpecification2" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="5f89edda-0099-4e66-9bd9-0d0b4e4eb2d5" name="staticLotteryNumberGenerator : StaticLotteryNumberGenerator" isActor="false" lifelineDisplayName="staticLotteryNumberGenerator : StaticLotteryNumberGenerator">
+            <elementDefinition Id="9303abfe-2e99-4135-aceb-d9d5e9b70a71" />
+            <represents>
+              <propertyMoniker Id="f4d2e166-39ba-45c1-b291-0a2f2b1c697a" />
+            </represents>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="e06c2b44-6309-4ed4-bf74-de0af124065d" LastKnownName="OperandOccurrenceSpecification1" />
+              <executionOccurrenceSpecificationMoniker Id="4fcaf165-45be-4637-bcbb-b264355c81e0" LastKnownName="ExecutionOccurrenceSpecification5" />
+              <executionOccurrenceSpecificationMoniker Id="67cbc573-879b-488d-aa14-6de3fbec917f" LastKnownName="ExecutionOccurrenceSpecification6" />
+              <operandOccurrenceSpecificationMoniker Id="9e0b5628-84f9-4158-8d95-002754f89322" LastKnownName="OperandOccurrenceSpecification2" />
+              <operandOccurrenceSpecificationMoniker Id="cd7a1184-012d-416c-b75e-3d6ef9a27cdc" LastKnownName="OperandOccurrenceSpecification5" />
+              <executionOccurrenceSpecificationMoniker Id="5251785e-2271-40ff-b424-d79a53edae66" LastKnownName="ExecutionOccurrenceSpecification7" />
+              <executionOccurrenceSpecificationMoniker Id="f4701b25-0fa4-4d23-9153-7a401cac86e2" LastKnownName="ExecutionOccurrenceSpecification8" />
+              <operandOccurrenceSpecificationMoniker Id="cd1d33fa-121a-413d-b8ca-95fe385f063b" LastKnownName="OperandOccurrenceSpecification6" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="93027560-eae6-4a16-844e-bd2b2630a5f0" name=" 點選驗證按鈕" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="+ buttonExe_Click(sender : object, e : EventArgs)">
+            <elementDefinition Id="bccbe9c2-402d-4b25-a85a-a2f24f56637a" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="86c34160-0fb7-434c-a271-8cf89f08eec5" LastKnownName="MessageOccurrenceSpecification1" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="6ac27646-5601-4be2-8165-d1119cf4cf28" LastKnownName="MessageOccurrenceSpecification2" />
+            </receiveEvent>
+          </message>
+          <message Id="5c97fa41-5eb1-4f28-a986-a054190ee811" name="進行驗證" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="- Validate() : Boolean">
+            <elementDefinition Id="3584c6a8-da37-4f97-82d3-1aa08ffbbdb6" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="844dbd03-7e34-4cbd-89d1-97825f6d1695" LastKnownName="MessageOccurrenceSpecification3" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="41600df6-d808-4579-bb56-ca5a581ef1a7" LastKnownName="MessageOccurrenceSpecification4" />
+            </receiveEvent>
+          </message>
+          <message Id="f5b89d9f-b9c6-4782-a8d8-5fe465ba04ec" name="送出設定資料(個數)" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="+ Generator(sourceNumberCount : Integer, getNumberCount : Integer) : int[]">
+            <elementDefinition Id="f94befd3-cb2f-4b03-9d69-d13c4fefa3a0" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="1f237ad9-20d6-4398-842e-113d50d72b87" LastKnownName="MessageOccurrenceSpecification5" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e0fae2e0-4b45-4453-82b2-611496038229" LastKnownName="MessageOccurrenceSpecification6" />
+            </receiveEvent>
+          </message>
+          <message Id="89655dd3-4669-434c-b19a-7135a1396074" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="27717619-ae81-44ed-b728-4e62d2afd543" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="96f5c7e8-873c-4518-8a45-90a3a07544ab" LastKnownName="MessageOccurrenceSpecification7" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5ad3b51c-9530-46b9-921c-89e81475b5b4" LastKnownName="MessageOccurrenceSpecification8" />
+            </receiveEvent>
+          </message>
+          <message Id="c4a848e4-ce84-48b5-a31b-5bddd9100ad3" name="送出設定資料(號碼)" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="+ Generator(startNumber : Integer, endNumber : Integer, getNumberCount : Integer) : int[]">
+            <elementDefinition Id="8992f3c2-2f9e-4aaf-9f7f-bacf7b9fef67" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="43e53cfa-2f7b-4431-ba0f-1e1ba471b3e3" LastKnownName="MessageOccurrenceSpecification9" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="22d75fca-403e-40e7-8385-62ab2fc6451e" LastKnownName="MessageOccurrenceSpecification10" />
+            </receiveEvent>
+          </message>
+          <message Id="941f724a-184b-4d93-b280-358aae615831" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="23ff3a97-1542-4e01-8577-e2782884f860" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="d9057764-166b-40b3-abdf-aa9ece4e71fc" LastKnownName="MessageOccurrenceSpecification11" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="b5852161-611b-465b-98c6-d547841bfa03" LastKnownName="MessageOccurrenceSpecification12" />
+            </receiveEvent>
+          </message>
+          <message Id="a691d001-7459-4114-b78d-1127ffe595bf" name="設定輸出結果" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true">
+            <elementDefinition Id="9f01f653-8c9d-4759-b059-d19ab277c926" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c9ad3dcd-2421-45e6-aeb4-49218b536b3c" LastKnownName="MessageOccurrenceSpecification13" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="046d73cb-9201-468e-9e3e-d6059d4c7298" LastKnownName="MessageOccurrenceSpecification14" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property Id="fbbb349b-c169-43f4-89fc-141f5118ef44" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="245a48c0-a854-4609-b519-466241b0d399" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3fb0e123-6732-4f36-a416-a39cc0a87b50" LastKnownName="LotteryFrom_Static" />
+            </type_NamedElement>
+          </property>
+          <property Id="aa889148-c1cd-4f31-a33a-ac6508056177" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="361086f2-6072-4f1b-99f3-401f2f369db8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="67309dc2-f4a5-41d6-a808-c49ed711703c" LastKnownName="StaticValidator" />
+            </type_NamedElement>
+          </property>
+          <property Id="f4d2e166-39ba-45c1-b291-0a2f2b1c697a" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="79ec6585-a571-403c-9636-2e17562ce5f7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4aab3b28-9b9c-4f39-b5f2-16a34024d03b" LastKnownName="StaticLotteryNumberGenerator" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3fb0e123-6732-4f36-a416-a39cc0a87b50" name="LotteryFrom_Static" isAbstract="false" isLeaf="false" cachedFullName="LotteryUMLProject::LotteryFrom_Static">
+        <elementDefinition Id="b45e6c01-52be-4a67-aa32-98659dc2ed73" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="67309dc2-f4a5-41d6-a808-c49ed711703c" name="StaticValidator" isAbstract="false" isLeaf="false" cachedFullName="LotteryUMLProject::StaticValidator">
+        <elementDefinition Id="021ec741-5336-47c9-8264-2af2542112da" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4aab3b28-9b9c-4f39-b5f2-16a34024d03b" name="StaticLotteryNumberGenerator" isAbstract="false" isLeaf="false" cachedFullName="LotteryUMLProject::StaticLotteryNumberGenerator">
+        <elementDefinition Id="686ccb09-8b0f-4a51-a88f-ccc330f766d4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="7834a916-0a8d-48b1-b09b-cc2ea429a18c" name="ExecutionEvent">
+        <elementDefinition Id="d78ae1bb-c5fb-42aa-a1dc-7964c43f4b92" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="c239bef0-2f2b-4741-9edc-ea8741c16081" name="ExecutionEvent">
+        <elementDefinition Id="e21203cd-9ba2-418e-8c76-4d0367a55530" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="84b37a3d-716f-445f-bd48-457148232613" name="ExecutionEvent">
+        <elementDefinition Id="a29e96c0-13e2-4a17-b4cf-6880fa2baa49" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="bcd3b537-5aaf-4826-b7ef-3b3bed2ff526" name="ExecutionEvent">
+        <elementDefinition Id="ab83a2a7-a2e2-4c6f-9d34-7d49f96fcf51" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="13ad897a-62c4-41a4-97b4-e8c51536a174" name="ExecutionEvent">
+        <elementDefinition Id="9a6008ba-678e-47bd-a46d-24acffa83f97" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="870b912c-0a7c-4542-b2ff-30018e5eef31" name="ExecutionEvent">
+        <elementDefinition Id="e429db51-7747-41ec-aa76-4596927b24c1" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="8f6a56e6-057b-49cc-b1c6-762befe6ce65" name="ExecutionEvent">
+        <elementDefinition Id="b7735ff5-be26-4508-9cd0-a83edf7582da" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="c757c58e-6aa5-40b6-860b-02f19ba4913c" name="ExecutionEvent">
+        <elementDefinition Id="10796ebf-0811-4c65-bd9b-f5dbe9afdf7d" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a9609d46-bd95-4654-88fe-df980eca42d6" name="ExecutionEvent">
+        <elementDefinition Id="1ac9902c-4bf9-456b-886d-632244d537b6" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e198da7f-7ac7-4521-91ad-4de95c325005" name="ExecutionEvent">
+        <elementDefinition Id="779dc4fb-4847-4de4-8e72-f2b84cdc80b0" />
+      </executionEvent>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="9d576199-4f64-4187-a6bb-44e6565ddcd3" name="LotteryUMLProject">
+    <elementDefinition Id="96e34617-a4ce-48ba-88a2-27eac66d0615" />
+  </package>
+</SequenceDesignerModel>

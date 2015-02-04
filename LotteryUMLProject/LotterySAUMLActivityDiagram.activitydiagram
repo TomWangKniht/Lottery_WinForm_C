@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="d63eed98-5c3e-4ed9-ba27-d00c3ad56522" name="LotterySAUMLActivityDiagram" linkedPackageId="17d8a31a-d6d7-4a09-843a-ade67258510d" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="465d6eee-bda3-498d-8f01-3757da6c38d1" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="7f4f35af-9678-4edc-be43-fc4cd10cdc8a" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="be44727c-3e20-4f55-ac2b-2ffef3efb51e">
+          <propertyInstance Id="21db2d3e-ae4f-4a9a-ad8c-80c99acfe4f4" name="BaseName">
+            <elementDefinition Id="182e33aa-7fa0-4eeb-8490-c810cbd2cfc0" />
+          </propertyInstance>
+          <elementDefinition Id="874154d2-ec4c-4c37-908d-3356be0b98b3" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6c98e850-ae16-4ebe-b5dc-17142e6fdafc">
+          <propertyInstance Id="3b2c7fe9-bdb8-4cff-be48-b009daf2c224" name="ClrAttributes">
+            <elementDefinition Id="1caf9daf-d018-4958-9bf4-f862f69ab5d4" />
+          </propertyInstance>
+          <elementDefinition Id="3f4713a3-09f3-4f19-aaf8-cf74d0e9c04f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="527c6c6c-45c6-46da-a651-ce16a8815557">
+          <propertyInstance Id="778d11e7-587b-4092-8061-5e89b522b4d2" name="Usings">
+            <elementDefinition Id="29ae1efa-c6f1-4780-890b-4fc601108310" />
+          </propertyInstance>
+          <elementDefinition Id="80b9463a-6b36-46ca-b308-bd0cd472d18b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="4a58d003-645b-4779-aaf2-8ad7cfa7bb6f" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="73ceab49-a68d-49a5-881d-81a31296b96a" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3f6a8fb8-8c80-425f-a170-a0552ac94c8a">
+          <propertyInstance Id="5dc5e222-5944-4e6f-b14d-d9a1243324eb" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="783ccd8e-35cf-4e63-aae0-fc771e8270e3" />
+          </propertyInstance>
+          <elementDefinition Id="f25bef69-673a-4315-a052-3539c262e633" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5d40764e-6dce-4ed3-b86c-28a29ff9b33e">
+          <propertyInstance Id="690bb11e-6f7a-44de-a04c-34a2dd3722a3" name="TemplateFilePath" value="ClassTemplate=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="f9100aeb-8e8b-4100-be15-5a5fa97b5003" />
+          </propertyInstance>
+          <elementDefinition Id="17da9614-d411-46f2-8b08-3cfcfa83abc1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="df7762bb-569a-48df-aea6-276bcc2c65f8">
+          <propertyInstance Id="b521b204-4bc1-4fd8-8d63-acf0cb1bd6a7" name="ProjectPath" value="ClassTemplate=..\LotteryUMLProjectLib\LotteryUMLProjectLib.csproj|EnumTemplate=..\LotteryUMLProjectLib\LotteryUMLProjectLib.csproj|InterfaceTemplate=..\LotteryUMLProjectLib\LotteryUMLProjectLib.csproj|StructTemplate=..\LotteryUMLProjectLib\LotteryUMLProjectLib.csproj">
+            <elementDefinition Id="274010ea-28ca-437b-9731-e21df0d00095" />
+          </propertyInstance>
+          <elementDefinition Id="b75061f1-330c-4f89-9971-329c2c59b35a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="dffca78a-7780-4ba2-8425-77ce7408228b">
+          <propertyInstance Id="fed091fa-962c-4e77-ae71-1fd313fe5085" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="4cb558e8-5068-4f83-b28c-7c0bffcb47e2" />
+          </propertyInstance>
+          <elementDefinition Id="cae61da6-9f15-4927-81ea-3eb3e7d60488" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="50935db1-85d6-4b00-abec-80a8a372c621">
+          <propertyInstance Id="8c7df392-e07f-489d-b7c4-537ff3f9c234" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="0b5ab4f9-5c6a-41c7-8e0e-e9d5bf49366b" />
+          </propertyInstance>
+          <elementDefinition Id="4c0eda64-0226-47fe-9d3f-fadba3ac3d60" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e8511c22-41f6-40f3-8b60-834e95da9b46">
+          <propertyInstance Id="c57163fd-595b-4838-805e-0d66934ab7d5" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="a7320405-5a67-4eb3-a327-7a994bbb162b" />
+          </propertyInstance>
+          <elementDefinition Id="cb11db57-62c5-48e4-8f2f-dac078918147" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9b977e2c-b138-4f5e-9699-2d9f96b56411">
+          <propertyInstance Id="1eb9ec82-f1d5-497e-86fd-360beaadeb4d" name="Parameters">
+            <elementDefinition Id="c24dfbbb-aa97-4883-ae70-5405e9f057fd" />
+          </propertyInstance>
+          <elementDefinition Id="8db1fb40-be30-4acf-866b-9c9da78c1270" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="8c98888f-fc00-4be2-bccb-25f2eda39263">
+      <profileInstance Id="a7c1f3dd-1af4-4a65-8eb3-998a968dce80" name="CSharpProfile">
+        <elementDefinition Id="3b3a4676-59de-424c-a554-a245d9f41fe6" />
+      </profileInstance>
+      <elementDefinition Id="0b1282b6-b3f0-44c6-b9fd-65e986eae5a3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9c1c81e7-9840-494e-9dde-228a5c06ed40">
+      <profileInstance Id="39edb1aa-f58f-4b4d-8454-d510e35e674e" name="TextTemplateBindings">
+        <elementDefinition Id="e5ea9e81-39f6-43c6-8515-2f57d580d333" />
+      </profileInstance>
+      <elementDefinition Id="1a9a3ed0-a269-4251-81f2-0086d800078a" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="3a91c348-3cdc-48fd-a003-f33165d8f550" name="LotterySAUMLActivityDiagram" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="7852d498-5de2-4433-8339-c55792f9357e" />
+        <nodes>
+          <objectNode Id="d945d3af-2de1-4529-95fe-95b8bab932de" name="使用者" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="31dbb3f2-6fee-47fa-b14b-338bd27d8709" />
+            <upperBound>
+              <literalInteger Id="b3aaac17-b174-46a7-8fec-127646fa8a70" name="2147483647" value="2147483647">
+                <elementDefinition Id="67cc57e2-1605-42cf-8da1-64eb5a408739" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="d2f42cd4-051c-4ba3-ad2e-d4c5f0fd0508" name="樂透號碼產生器" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="9c0bca81-45f6-43fe-b61f-23ea2b71b467" />
+            <upperBound>
+              <literalInteger Id="4814f614-fea7-4d93-8097-3f5f1348e0d8" name="2147483647" value="2147483647">
+                <elementDefinition Id="bf8ed1c1-5da4-4f3f-96c6-7555939f614a" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <initialNode Id="8fd8b1bc-30df-4975-a9f1-56cafb425cd2" name="Initial1" isLeaf="false">
+            <elementDefinition Id="ba589274-036b-4cab-b837-b00cd5639b7e" />
+            <flowNodeTargets>
+              <controlFlow Id="3ff8d666-2fc1-4f19-98a0-b296ed91500c" isLeaf="false">
+                <opaqueActionMoniker Id="f1ac6e00-96a7-4148-83da-0901aedbf124" LastKnownName="進行設定" />
+                <elementDefinition Id="2ab3e371-7d9d-4577-8f5d-2804bd56cbb5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="f1ac6e00-96a7-4148-83da-0901aedbf124" name="進行設定" isLeaf="false">
+            <elementDefinition Id="5fe7ceec-3916-4612-9d5d-cdb18361b55b" />
+            <flowNodeTargets>
+              <controlFlow Id="342d51c3-df8e-4eed-98bd-df8ea45172e7" isLeaf="false">
+                <opaqueActionMoniker Id="3370e51e-cf51-40f5-bf1c-d8af1826e2a7" LastKnownName="執行產生" />
+                <elementDefinition Id="a9006d52-6b07-4a80-8d4a-1fe9efdda6ae" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="3370e51e-cf51-40f5-bf1c-d8af1826e2a7" name="執行產生" isLeaf="false">
+            <elementDefinition Id="2b5bc8c4-4081-4cfb-b084-bc0124a5e7e3" />
+            <flowNodeTargets>
+              <controlFlow Id="9a9b5dcf-e074-4ada-ba04-6179aaeb94d7" isLeaf="false">
+                <opaqueActionMoniker Id="d3d0bc76-943e-45e8-8117-c2750e6c08d5" LastKnownName="驗證設定資料" />
+                <elementDefinition Id="1d2f0859-a86e-4a81-a482-4f850ec2a752" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d3d0bc76-943e-45e8-8117-c2750e6c08d5" name="驗證設定資料" isLeaf="false">
+            <elementDefinition Id="f2678542-f3f5-4d5f-99c8-5ae43855307a" />
+            <flowNodeTargets>
+              <controlFlow Id="5abf3fd3-266d-42c2-b61b-0ffb4d7a7910" isLeaf="false">
+                <decisionNodeMoniker Id="5a58bb49-5f3d-4d02-ada4-f4cabbd9c774" LastKnownName="Decision1" />
+                <elementDefinition Id="7e80a920-3ba6-4f78-aaf1-846c6116d9ae" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="5a50090b-418d-4c80-af24-b806d1e124d3" name="顯示錯誤訊息" isLeaf="false">
+            <elementDefinition Id="bf41be5a-2b50-4d42-a63d-d9405fc5d80f" />
+            <flowNodeTargets>
+              <controlFlow Id="860a1349-3902-4ca5-a486-ab5299f86431" isLeaf="false">
+                <opaqueActionMoniker Id="f1ac6e00-96a7-4148-83da-0901aedbf124" LastKnownName="進行設定" />
+                <elementDefinition Id="0da500fa-95a5-45cd-9594-baa6a8b7aa93" />
+              </controlFlow>
+              <controlFlow Id="5eb32fe3-917d-4026-8160-1ccf015d4965" isLeaf="false">
+                <opaqueActionMoniker Id="2de63515-f0be-4268-8738-4cddd1ef1112" LastKnownName="顯示運算結果" />
+                <elementDefinition Id="3f8808f8-7cd5-4207-a72d-cc4da2f29bb4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="5a58bb49-5f3d-4d02-ada4-f4cabbd9c774" name="Decision1" isLeaf="false">
+            <elementDefinition Id="f3dfc22a-829b-42ab-9d62-c8bd4dee0e8b" />
+            <flowNodeTargets>
+              <controlFlow Id="b3d2ea99-7acd-4477-b9ed-b2f4f414f3e1" guard="資料格式正確" isLeaf="false">
+                <opaqueActionMoniker Id="b7e5ccc6-c7d5-479b-a622-c889c5e999d8" LastKnownName="進行運算" />
+                <elementDefinition Id="74f9637a-cc0e-448b-be33-cd4166e677f2" />
+              </controlFlow>
+              <controlFlow Id="77fcd9e5-1fbb-4f2d-985d-490578062ba0" guard="資料格式有誤" isLeaf="false">
+                <opaqueActionMoniker Id="5a50090b-418d-4c80-af24-b806d1e124d3" LastKnownName="顯示錯誤訊息" />
+                <elementDefinition Id="062fd40e-81ad-404b-aa8f-6575a1093e16" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="b7e5ccc6-c7d5-479b-a622-c889c5e999d8" name="進行運算" isLeaf="false">
+            <elementDefinition Id="6aaca581-eeaf-4bb0-858a-a38052abb225" />
+            <flowNodeTargets>
+              <controlFlow Id="950f3ea5-d942-4b42-9885-e5ed07ae07fd" isLeaf="false">
+                <opaqueActionMoniker Id="2de63515-f0be-4268-8738-4cddd1ef1112" LastKnownName="顯示運算結果" />
+                <elementDefinition Id="e1795cf1-2caf-4e6e-adf5-411a2c448821" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="2de63515-f0be-4268-8738-4cddd1ef1112" name="顯示運算結果" isLeaf="false">
+            <elementDefinition Id="b7732ee5-d195-4b35-909a-99cb6a070e43" />
+            <flowNodeTargets>
+              <controlFlow Id="55f976bd-9f51-4636-be56-810581275f05" isLeaf="false">
+                <activityFinalNodeMoniker Id="061f8258-6c81-4422-9b45-e704aa58dee9" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="0b3e0eb7-fb66-4baa-bc10-39140df5dcd9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="061f8258-6c81-4422-9b45-e704aa58dee9" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="aabbd3bd-bac8-440a-80f8-ba59c10eed57" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="17d8a31a-d6d7-4a09-843a-ade67258510d" name="LotteryUMLProject">
+    <elementDefinition Id="96e34617-a4ce-48ba-88a2-27eac66d0615" />
+    <profileInstances>
+      <packageHasProfileInstances Id="0d347860-9efd-46b6-b5e8-c854f1bc4eae">
+        <profileInstance Id="1c92da28-1fbd-4765-9aca-f8a6d8d14952" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ea22354a-60df-4d8a-8384-1f89f1c5421a">
+        <profileInstance Id="e5944854-cad3-4323-a925-95e6066b32b2" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

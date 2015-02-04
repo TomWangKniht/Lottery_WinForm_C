@@ -1,0 +1,7 @@
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\TestLotteryMultiTierProject\bin\Debug\TestLotteryMultiTierProject.dll
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\TestLotteryMultiTierProject\bin\Debug\TestLotteryMultiTierProject.pdb
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\TestLotteryMultiTierProject\bin\Debug\LotteryWindowsFormsApplication.exe
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\TestLotteryMultiTierProject\bin\Debug\LotteryWindowsFormsApplication.pdb
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\TestLotteryMultiTierProject\obj\Debug\ResolveAssemblyReference.cache
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\TestLotteryMultiTierProject\obj\Debug\TestLotteryMultiTierProject.dll
+D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\TestLotteryMultiTierProject\obj\Debug\TestLotteryMultiTierProject.pdb

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LotteryStaticUMLClassDiagram">
+  <logicalClassDesignerModelMoniker Id="014e359a-f828-467a-bf0b-07c87367f316" />
+  <nestedChildShapes>
+    <classShape Id="f74de24c-dea4-4865-949f-0eb408e317b8" absoluteBounds="2.875, 1, 2.75, 1.2226562251647315" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="4d0cd459-49dd-44cf-8892-272f3cf1902f" LastKnownName="LotteryFrom_Static" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="1b11a69d-017c-4e9f-8761-736ba2d8a018" absoluteBounds="2.89, 1.3900000000000001, 2.7199999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="7fbd319a-c09a-47c4-857d-479b0f0d2272" absoluteBounds="2.89, 1.6011718675494193, 2.7199999999999998, 0.52148435761531187" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e04bf3f6-b5a2-4bf0-97b8-b46878a88cca" absoluteBounds="2.75, 2.875, 5.5, 1.8632812052965164" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="8c570098-1be9-4528-ad55-f3b1ad6dd345" LastKnownName="StaticValidator" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="4b2965f1-d202-446d-98eb-b2e9513863f2" absoluteBounds="2.765, 3.265, 5.4700000000000006, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="308fb412-75f6-4ffe-b760-ceae07b3273b" absoluteBounds="2.765, 3.4761718675494193, 5.4700000000000006, 1.162109337747097" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5854be1f-9d63-40cf-b6a5-238469bd930e" absoluteBounds="2.625, 5.375, 5.625, 1.7031249602635699" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="04cad7e0-162b-43cb-944b-6fa4d31dd336" LastKnownName="StaticLotteryNumberGenerator" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="480d44fb-46bb-4890-ba94-b0b7ecb232a9" absoluteBounds="2.64, 5.765, 5.5950000000000006, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="bb1e6452-0711-44cc-9b3b-3aa2228f7ce9" absoluteBounds="2.64, 6.1363281125823654, 5.5950000000000006, 0.84179684768120444" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

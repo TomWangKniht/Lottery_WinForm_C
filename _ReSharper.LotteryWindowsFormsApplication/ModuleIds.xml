@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="1A46FB92-D8EA-469D-9D2A-1DF394F8074B" ModuleId="LotteryWindowsFormsApplication" />
+  <Module PersistentId="B686527D-46D8-4D73-AF3E-02D70EECDC73" ModuleId="LotteryUMLProjectLib" />
+  <Module PersistentId="EC8159E8-77F0-4292-8A45-360A5C1B9C22" ModuleId="TestLotteryMultiTierProject" />
+</Modules>

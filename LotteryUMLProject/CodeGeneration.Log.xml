@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/Extensions/Microsoft/Visualization and Modeling Feature Pack/2.0/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2012-05-17T09:38:20" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2012-05-17T09:38:20" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2012-05-17T09:38:20" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2012-05-17T09:38:20" Importance="Diagnostic" Text="ProjectPath = ..\LotteryUMLProjectLib\LotteryUMLProjectLib.csproj" />
+  <Message Timestamp="2012-05-17T09:38:20" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2012-05-17T09:38:20" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2012-05-17T09:38:20" Importance="Diagnostic" Text="TemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2012-05-17T09:38:20" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2012-05-17T09:38:20" Importance="Medium" Text="LotteryUMLProject's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'LotteryUMLProject::IInputDataValidator' -  (Interface) " />
+  <Message Timestamp="2012-05-17T09:38:27" Importance="Medium" Text="'LotteryUMLProject::IInputDataValidator' -  (Interface) : success (file created) - D:\C#DemoCode\Lottery\LotteryWindowsFormsApplication\LotteryUMLProjectLib\GeneratedCode\IInputDataValidator.cs" />
+  <Message Timestamp="2012-05-17T09:38:28" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
